@@ -232,47 +232,55 @@ Question: The initial zero-day abused by Reaper was on which software?
 Answer:
 
 Adobe Flash
-Threat Emulation Process 3
-Blue Team Activities
+
+---
+
+## Threat Emulation Process 3
+
+### Blue Team Activities
 
 During threat emulation, blue team activities can include:
 
-Log analysis
-Event log evaluation
-Network traffic monitoring
-Analysing Detection Results
+* Log analysis
+* Event log evaluation
+* Network traffic monitoring
+
+### Analysing Detection Results
 
 The observation of each emulated TTP can generally fall into three categories:
 
-Result	Meaning
-Detected and blocked	Defence worked as expected
-Detected but not blocked	Visibility exists, but response needs tuning
-Not detected	A detection gap exists and needs to be addressed
-Structured Emulation Report
+Result  Meaning  
+Detected and blocked    Defence worked as expected  
+Detected but not blocked    Visibility exists, but response needs tuning  
+Not detected    A detection gap exists and needs to be addressed  
+
+### Structured Emulation Report
 
 A good emulation report should contain:
 
-Exercise Summary
-Adversary being emulated
-TTPs tested
-Findings
-Detected activity
-Blocked activity
-Missed activity
-Supporting evidence
-Gaps Identified
+Exercise Summary  
+  * Adversary being emulated
+  * TTPs tested
+    
+Findings  
+  * Detected activity
+  * Blocked activity
+  * Missed activity
+  * Supporting evidence  
+
+### Gaps Identified
 
 Document weaknesses discovered during the exercise.
 
-Recommendations
+### Recommendations
 
 Provide specific and actionable improvements.
 
-Re-validation Plan
+### Re-validation Plan
 
 Define how the improvements will be tested again.
 
-APT Defence
+### APT Defence  
 Command and Scripting Techniques
 
 Question: While defending against APTs, what mitigation measure would you use to prevent command and scripting techniques?
@@ -280,21 +288,24 @@ Question: While defending against APTs, what mitigation measure would you use to
 Answer:
 
 Execution prevention
-Ransomware Data Loss
+
+### Ransomware Data Loss
 
 Question: How would you mitigate against data loss through ransomware encryption?
 
 Answer:
 
 Data backup
-Data Exfiltration
+
+### Data Exfiltration
 
 Question: What is the most efficient method used for data exfiltration?
 
 Answer:
 
 Uploading files to cloud storage
-First Worm-Like Ransomware
+
+### First Worm-Like Ransomware
 
 Question: What was the first ransomware that leveraged worm-like capabilities?
 
@@ -304,7 +315,7 @@ WannaCry
 
 Flag: Round 1 flag found.
 
-Web Attack Detection
+### Web Attack Detection  
 SQL Injection
 
 Question: When emulating an SQL injection attack, what indicators in web server logs can suggest it was successful?
@@ -312,33 +323,38 @@ Question: When emulating an SQL injection attack, what indicators in web server 
 Answer:
 
 Presence of SQL syntax in logs
-Brute-Force Detection
+
+### Brute-Force Detection
 
 Question: What kind of web server logs would effectively indicate brute-force attacks during emulation and detection?
 
 Answer:
 
 Repeated login attempts from the same IP address
-File Inclusion Detection
+
+### File Inclusion Detection
 
 Question: Which artefacts in web server logs could indicate file inclusion attacks?
 
 Answer:
 
 Presence of path traversal syntax in logs
-Outlook Web App Exploitation
+
+### Outlook Web App Exploitation
 
 Question: Which group was responsible for breaches through exploitation of the Outlook Web App?
 
 Answer:
 
 HAFNIUM
-Key Takeaways
-Threat emulation uses real-world threat intelligence to reproduce adversary behaviour.
-Threat emulation focuses on accurately replicating a specific adversary, while threat simulation can use predefined attack patterns without exactly copying one threat actor.
-MITRE ATT&CK provides a common language for describing adversary TTPs.
-Atomic testing provides small, repeatable technique-level tests.
-Adversary emulation chains TTPs together to reproduce a campaign.
-Purple teaming combines offensive and defensive activity during testing.
-Threat emulation is not only about whether an attack succeeds — it also measures whether defenders detect, block, investigate, and respond to the activity.
-Findings should feed directly into remediation and re-validation.
+
+### Key Takeaways
+
+- Threat emulation uses real-world threat intelligence to reproduce adversary behaviour.  
+- Threat emulation focuses on accurately replicating a specific adversary, while threat simulation can use predefined attack patterns without exactly copying one threat actor.  
+- MITRE ATT&CK provides a common language for describing adversary TTPs.  
+- Atomic testing provides small, repeatable technique-level tests.  
+- Adversary emulation chains TTPs together to reproduce a campaign.  
+- Purple teaming combines offensive and defensive activity during testing.  
+- Threat emulation is not only about whether an attack succeeds — it also measures whether defenders detect, block, investigate, and respond to the activity.  
+- Findings should feed directly into remediation and re-validation.
